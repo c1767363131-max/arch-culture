@@ -1,17 +1,34 @@
 baseURL = "https://shanxitrip.me/"
 languageCode = "en-us"
-title = "Shanxi Culture & Architecture"
+title = "Shanxi Trip 山西旅游"
 theme = "hugo-theme-stack"
 
 [[menu.main]]
-  identifier = "explore"
-  name = "Explore Shanxi"
-  url = "/explore/"
+  identifier = "landscape"
+  name = "Landscape"
+  url = "/landscape/"
   weight = 10
 
 [[menu.main]]
-  identifier = "journeys"
-  name = "Journeys"
-  url = "/journeys/"
+  identifier = "architecture"
+  name = "Architecture"
+  url = "/architecture/"
   weight = 20
-# force vercel trigger
+
+[[menu.main]]
+  identifier = "religion"
+  name = "Religion"
+  url = "/religion/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "culture"
+  name = "Culture"
+  url = "/culture/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "food"
+  name = "Food"
+  url = "/food/"
+  weight = 50
