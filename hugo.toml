@@ -1,0 +1,17 @@
+baseURL = "https://shanxitrip.me/"
+languageCode = "en-us"
+title = "Shanxi Culture & Architecture"
+theme = "hugo-theme-stack"
+
+[[menu.main]]
+  identifier = "explore"
+  name = "Explore Shanxi"
+  url = "/explore/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "journeys"
+  name = "Journeys"
+  url = "/journeys/"
+  weight = 20
+# force vercel trigger
