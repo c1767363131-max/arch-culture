@@ -1,34 +1,37 @@
 baseURL = "https://shanxitrip.me/"
-languageCode = "en-us"
 title = "Shanxi Trip 山西旅游"
-theme = "hugo-theme-stack"
+theme = "hextra"
 
+[params]
+  # 让顶部导航栏在滚动时吸顶
+  navbar.displayTitle = true
+
+# 顶部导航栏分类
 [[menu.main]]
-  identifier = "landscape"
   name = "Landscape"
-  url = "/landscape/"
+  pageRef = "/landscape"
   weight = 10
-
 [[menu.main]]
-  identifier = "architecture"
   name = "Architecture"
-  url = "/architecture/"
+  pageRef = "/architecture"
   weight = 20
-
 [[menu.main]]
-  identifier = "religion"
   name = "Religion"
-  url = "/religion/"
+  pageRef = "/religion"
   weight = 30
-
 [[menu.main]]
-  identifier = "culture"
   name = "Culture"
-  url = "/culture/"
+  pageRef = "/culture"
   weight = 40
-
 [[menu.main]]
-  identifier = "food"
   name = "Food"
-  url = "/food/"
+  pageRef = "/food"
   weight = 50
+[[menu.main]]
+  name = "Journeys"
+  pageRef = "/journeys"
+  weight = 60
+[[menu.main]]
+  name = "About Me"
+  pageRef = "/about"
+  weight = 70

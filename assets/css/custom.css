@@ -1,0 +1,34 @@
+/* 1. 顶部导航栏 */
+.hextra-nav-container .hx-text-sm {
+    font-size: 1.35rem !important; 
+    font-weight: 600 !important;
+}
+
+/* 2. 左上角站点标题 */
+.hextra-nav-container .hx-font-bold {
+    font-size: 1.8rem !important;
+    letter-spacing: 0.02em !important;
+}
+
+/* 3. 首页大标题：变得更细、更精致，保持单行 */
+.hextra-content h1 {
+    font-size: 1.8rem !important; /* 从 2.2rem 缩小，不那么喧宾夺主 */
+    font-weight: 500 !important;  /* 从 800 降到 500，去掉粗重感，显得修长精致 */
+    text-align: center !important;
+    margin-top: 3rem !important;
+    line-height: 1.3 !important;
+}
+
+/* 核心补丁：强行保持一行铺开 */
+@media (min-width: 1024px) {
+    .hextra-content h1 {
+        white-space: nowrap !important; /* 强制不换行 */
+        width: max-content !important; /* 允许内容突破默认宽度 */
+        margin-left: auto !important; 
+        margin-right: auto !important;
+    }
+}
+
+/* 4. 正文与整体层级 */
+html { font-size: 18px !important; }
+body { line-height: 1.8 !important; }
