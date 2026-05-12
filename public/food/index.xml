@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shanxi Trip 山西旅游 – Food: The Art of Wheat and Vinegar</title>
+    <link>http://localhost:1313/food/</link>
+    <description>Recent content in Food: The Art of Wheat and Vinegar on Shanxi Trip 山西旅游</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="http://localhost:1313/food/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

@@ -35,3 +35,7 @@ theme = "hextra"
   name = "About Me"
   pageRef = "/about"
   weight = 70
+
+# 解除引擎安全限制，允许使用原生 HTML 进行高级图片排版
+[markup.goldmark.renderer]
+  unsafe = true
